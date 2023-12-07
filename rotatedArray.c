@@ -104,7 +104,8 @@ int findPivotWithDuplicates(int *arr, int length)
 int search(int *arr, int length, int target)
 {
 
-    int pivot = findPivot(arr, length);
+    // int pivot = findPivot(arr, length);
+    int pivot = findPivotWithDuplicates(arr,length);
 
     // no pivot found that means it is a normal sorted array
     if (pivot == -1)
