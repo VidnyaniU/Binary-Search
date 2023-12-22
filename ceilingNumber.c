@@ -4,7 +4,7 @@
 #include <stdio.h>
 int ceiling(int arr[], int left, int right, int target)
 {
-    if (target == 0)
+    if (target== 0)
     {
         return -1;
     }
